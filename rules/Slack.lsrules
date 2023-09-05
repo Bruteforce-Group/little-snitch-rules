@@ -886,6 +886,17 @@
       ],
       "ports": "443,80",
       "protocol": "tcp"
-    }
+    },
+    {
+      "action": "deny",
+      "remote-domains": [
+        "cs.dds.microsoft.com",
+        "ztd.dds.microsoft.com",
+        "ekop.intel.com",
+        "ekcert.spserv.microsoft.com",
+        "ftpm.amd.com"
+      ],
+      "ports": "443,80",
+      "protocol": "tcp"
   ]
 }
